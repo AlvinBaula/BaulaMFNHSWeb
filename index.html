@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylehome.css">
+        <link rel="stylesheet" href="mainstyle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <title>Baula Manolo Fortich National High School</title>
+      </head>
+      <body>
+        <section class="header" id="home">
+          <nav>
+            <a href="#"><img src="imgs/MFLOGO.png" alt=""></a>
+            <div class="nav-links" id="navlinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="newsroom.html">Newsroom</a></li>
+                <li><a href="alumni.html">Alumni</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="campuslife.html">Campus Life</a></li>
+                <li><a href="about.html">About</a></li>
+              </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+          </nav>
+          <div class="text-box">
+            <h1>MANOLO FORTICH NATIONAL HIGH SCHOOL</h1>
+            <h4>One of the Top Performing Mega School in the Division of Bukidnon</h4>
+            <br>
+            <button class="text-button" onclick="showPopup()">SCHOOL HISTORY</button>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <p><br>MFNHS was founded in 1963, with the vision of providing a nurturing and challenging educational environment. From its humble beginnings with a small number of students and teachers, it has grown into a reputable institution known for academic excellence and holistic development.
+                <br>Throughout the years, we have achieved numerous milestones. We have consistently produced top-performing students in national examinations and have been recognized for our excellence in various fields, including sports, arts, and sciences. Our alumni have gone on to excel in various professions, contributing positively to society and embodying the values instilled in them during their time here.
+                <br>The success of our school is not just measured by academic achievements but also by the strong sense of community and culture that we have cultivated. Our school values inclusivity, respect, and integrity, and these principles are evident in our daily interactions. Students, teachers, and staff work together to create a supportive and dynamic learning environment.
+                <br>In the past 61 years, MFNHS has continually adapted to changes in the educational landscape. We have embraced new technologies, updated our curriculum, and introduced innovative teaching methods to ensure that our students are well-prepared for the future. Our commitment to continuous improvement is unwavering.</p>
+        </div>
+    </div>
+
+    <script src="java1.js"></script>
+        </section>
+        <footer>
+            <div class="footer-row">
+            <div class="footer-col">
+                <h4>Follow Us:</h4>
+                <ul>
+                    <li><a href="https://www.facebook.com/ManoloFortichNHSOfficial/">FB Page: @ManoloFortichNHSOfficial</a></li>
+                    <li><a href="https://www.Instagram.com/">Insta: @ManoloFortichNHS</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Email Us:</h4>   
+                <ul>
+                    <li><a href="https://www.gmail.com">ManoloFortichNHS@gmail.com</a></li>
+                    <li><a href="https://www.yahoo.com">MFNHS@yahoo.com</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Us:</h4>
+                <ul>
+                    <li><a href="#">Tel #: 8000-8000-800</a></li>
+                    <li><a href="#">Phone #: 0999-999-9999</a></li>
+                </ul>
+            </div>
+            <p>&copy; 2025 MANOLO FORTICH NATIONAL HIGH SCHOOL. All rights reserved.</p>
+        </footer>
+        <script>
+            function showMessage() {
+                const messageBox = document.getElementById('message-box');
+                messageBox.textContent = 'Button clicked! This is your message.';
+                messageBox.style.display = 'block';
+            }
+        </script>
+</html>
