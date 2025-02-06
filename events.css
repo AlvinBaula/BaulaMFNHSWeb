@@ -373,7 +373,7 @@ h2 {
 
 footer {
     background: lightslategrey;
-    color: black;
+    color: white;
     padding: 20px;
     text-align: center;
 }
@@ -401,7 +401,7 @@ footer {
 
  .footer-col ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
  }
 
  .footer-col ul li a:hover {
